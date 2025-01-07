@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Quikrete.Repository/1.0.0": {
+        "dependencies": {
+          "Quikrete.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Quikrete.Repository.dll": {}
+        }
+      },
+      "Quikrete.Domain/1.0.0": {
+        "runtime": {
+          "Quikrete.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Quikrete.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Quikrete.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

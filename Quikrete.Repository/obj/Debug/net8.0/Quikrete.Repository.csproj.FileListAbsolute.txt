@@ -1,0 +1,15 @@
+C:\Users\abdgu\source\repos\Quikrete.API\Quikrete.Repository\bin\Debug\net8.0\Quikrete.Repository.deps.json
+C:\Users\abdgu\source\repos\Quikrete.API\Quikrete.Repository\bin\Debug\net8.0\Quikrete.Repository.dll
+C:\Users\abdgu\source\repos\Quikrete.API\Quikrete.Repository\bin\Debug\net8.0\Quikrete.Repository.pdb
+C:\Users\abdgu\source\repos\Quikrete.API\Quikrete.Repository\bin\Debug\net8.0\Quikrete.Domain.dll
+C:\Users\abdgu\source\repos\Quikrete.API\Quikrete.Repository\bin\Debug\net8.0\Quikrete.Domain.pdb
+C:\Users\abdgu\source\repos\Quikrete.API\Quikrete.Repository\obj\Debug\net8.0\Quikrete.Repository.csproj.AssemblyReference.cache
+C:\Users\abdgu\source\repos\Quikrete.API\Quikrete.Repository\obj\Debug\net8.0\Quikrete.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abdgu\source\repos\Quikrete.API\Quikrete.Repository\obj\Debug\net8.0\Quikrete.Repository.AssemblyInfoInputs.cache
+C:\Users\abdgu\source\repos\Quikrete.API\Quikrete.Repository\obj\Debug\net8.0\Quikrete.Repository.AssemblyInfo.cs
+C:\Users\abdgu\source\repos\Quikrete.API\Quikrete.Repository\obj\Debug\net8.0\Quikrete.Repository.csproj.CoreCompileInputs.cache
+C:\Users\abdgu\source\repos\Quikrete.API\Quikrete.Repository\obj\Debug\net8.0\Quikrete.CCBB0DF3.Up2Date
+C:\Users\abdgu\source\repos\Quikrete.API\Quikrete.Repository\obj\Debug\net8.0\Quikrete.Repository.dll
+C:\Users\abdgu\source\repos\Quikrete.API\Quikrete.Repository\obj\Debug\net8.0\refint\Quikrete.Repository.dll
+C:\Users\abdgu\source\repos\Quikrete.API\Quikrete.Repository\obj\Debug\net8.0\Quikrete.Repository.pdb
+C:\Users\abdgu\source\repos\Quikrete.API\Quikrete.Repository\obj\Debug\net8.0\ref\Quikrete.Repository.dll

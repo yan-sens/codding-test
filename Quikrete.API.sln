@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quikrete.API", "Quikrete.API\Quikrete.API.csproj", "{C032AD83-A6CB-44D8-949D-6C75161011DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quikrete.Domain", "Quikrete.Domain\Quikrete.Domain.csproj", "{C4B9F379-4125-4B29-A2CA-A7A65DAEDFC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quikrete.Repository", "Quikrete.Repository\Quikrete.Repository.csproj", "{BD950EBE-49A7-4FF9-B29D-01B9FB03B97C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C032AD83-A6CB-44D8-949D-6C75161011DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C032AD83-A6CB-44D8-949D-6C75161011DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C032AD83-A6CB-44D8-949D-6C75161011DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C032AD83-A6CB-44D8-949D-6C75161011DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4B9F379-4125-4B29-A2CA-A7A65DAEDFC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4B9F379-4125-4B29-A2CA-A7A65DAEDFC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4B9F379-4125-4B29-A2CA-A7A65DAEDFC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4B9F379-4125-4B29-A2CA-A7A65DAEDFC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD950EBE-49A7-4FF9-B29D-01B9FB03B97C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD950EBE-49A7-4FF9-B29D-01B9FB03B97C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD950EBE-49A7-4FF9-B29D-01B9FB03B97C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD950EBE-49A7-4FF9-B29D-01B9FB03B97C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

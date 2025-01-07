@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Quikrete.API.props" />
+</Project>

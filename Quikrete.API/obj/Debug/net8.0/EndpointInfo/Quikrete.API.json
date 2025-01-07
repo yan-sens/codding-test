@@ -1,0 +1,211 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Quikrete API",
+    "version": "v1"
+  },
+  "paths": {
+    "/players/list": {
+      "post": {
+        "tags": [
+          "Players"
+        ],
+        "summary": "Get filtered players.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetPlayersRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetPlayersRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetPlayersRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/players": {
+      "delete": {
+        "tags": [
+          "Players"
+        ],
+        "summary": "Delete player by player id.",
+        "parameters": [
+          {
+            "name": "playerId",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Players"
+        ],
+        "summary": "Update player.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Player"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Player"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Player"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Players"
+        ],
+        "summary": "Create a new player.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Player"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Player"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Player"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "GetPlayersRequest": {
+        "type": "object",
+        "properties": {
+          "filter": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PlayerRequest"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Player": {
+        "required": [
+          "name",
+          "position",
+          "skills"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "position": {
+            "$ref": "#/components/schemas/PlayerPosition"
+          },
+          "skills": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PlayerSkill"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PlayerPosition": {
+        "enum": [
+          "Defender",
+          "Midfielder",
+          "Forward"
+        ],
+        "type": "string"
+      },
+      "PlayerRequest": {
+        "required": [
+          "skill"
+        ],
+        "type": "object",
+        "properties": {
+          "position": {
+            "$ref": "#/components/schemas/PlayerPosition"
+          },
+          "skill": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PlayerSkill": {
+        "required": [
+          "name"
+        ],
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "value": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

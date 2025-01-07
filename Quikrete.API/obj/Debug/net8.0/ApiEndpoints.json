@@ -1,0 +1,66 @@
+[
+  {
+    "ContainingType": "Quikrete.API.Controllers.PlayersController",
+    "Method": "DeletePlayer",
+    "RelativePath": "players",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "playerId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Quikrete.API.Controllers.PlayersController",
+    "Method": "UpdatePlayer",
+    "RelativePath": "players",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "player",
+        "Type": "Quikrete.Domain.Models.Player",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Quikrete.API.Controllers.PlayersController",
+    "Method": "CreatePlayer",
+    "RelativePath": "players",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "player",
+        "Type": "Quikrete.Domain.Models.Player",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Quikrete.API.Controllers.PlayersController",
+    "Method": "GetPlayers",
+    "RelativePath": "players/list",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Quikrete.Domain.RequestModels.GetPlayersRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
